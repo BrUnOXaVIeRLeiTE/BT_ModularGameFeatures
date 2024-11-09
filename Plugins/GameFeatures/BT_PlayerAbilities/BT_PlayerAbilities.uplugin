@@ -1,0 +1,32 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "BT_PlayerAbilities",
+	"Description": "Black Tower Studios - Test B",
+	"Category": "Game Features",
+	"CreatedBy": "Bruno Xavier",
+	"CreatedByURL": "https://brunoxavierleite.com/",
+	"DocsURL": "bruno_xavier_@msn.com",
+	"SupportURL": "bruno_xavier_@msn.com",
+	"EnabledByDefault": true,
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": true,
+	"ExplicitlyLoaded": true,
+	"BuiltInInitialFeatureState": "Loaded",
+	"MarketplaceURL": "",
+	"Modules": [
+		{
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"Name": "BT_PlayerAbilitiesRuntime",
+			"PlatformAllowList": [
+				"Win64",
+				"Mac",
+				"Linux"
+			]
+		}
+	]
+}

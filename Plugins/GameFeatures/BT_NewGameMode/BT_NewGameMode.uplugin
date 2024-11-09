@@ -1,0 +1,46 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "BT_NewGameMode",
+	"Description": "Black Tower Studios - Test C",
+	"Category": "Game Features",
+	"CreatedBy": "Bruno Xavier",
+	"CreatedByURL": "https://brunoxavierleite.com/",
+	"DocsURL": "bruno_xavier_@msn.com",
+	"SupportURL": "bruno_xavier_@msn.com",
+	"EnabledByDefault": true,
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": true,
+	"ExplicitlyLoaded": true,
+	"BuiltInInitialFeatureState": "Activated",
+	"MarketplaceURL": "",
+	"Modules": [
+		{
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"Name": "BT_NewGameModeRuntime",
+			"PlatformAllowList": [
+				"Win64",
+				"Mac",
+				"Linux"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "GameplayAbilities",
+			"Enabled": true
+		},
+		{
+			"Name": "ModularGameplay",
+			"Enabled": true
+		},
+		{
+			"Name": "GameFeatures",
+			"Enabled": true
+		}
+	]
+}
